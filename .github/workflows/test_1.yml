@@ -1,0 +1,11 @@
+name: Hola Terricolas
+
+on: [push]
+
+jobs:
+  hola:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Hola Terricolas
+      run: echo "Hola Terricolas"
