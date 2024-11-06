@@ -9,3 +9,10 @@ jobs:
     steps:
     - name: Hola Terricolas
       run: echo "Hola Terricolas"
+  
+  other:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: LS
+      run: ls -al 
